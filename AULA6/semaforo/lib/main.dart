@@ -8,6 +8,8 @@ void main() {
 }
 
 class SemaforoApp extends StatefulWidget {
+  const SemaforoApp({super.key});
+
   @override
   _SemaforoAppState createState() => _SemaforoAppState();
 }

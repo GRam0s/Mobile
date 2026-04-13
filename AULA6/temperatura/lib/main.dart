@@ -8,6 +8,8 @@ void main() {
 }
 
 class TemperaturaApp extends StatefulWidget {
+  const TemperaturaApp({super.key});
+
   @override
   _TemperaturaAppState createState() => _TemperaturaAppState();
 }

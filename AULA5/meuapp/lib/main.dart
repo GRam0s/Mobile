@@ -7,6 +7,8 @@ void main() {
 }
 
 class InterrupetorApp extends StatefulWidget {
+  const InterrupetorApp({super.key});
+
   @override
   _InterrupetorAppState createState() => _InterrupetorAppState();
 }

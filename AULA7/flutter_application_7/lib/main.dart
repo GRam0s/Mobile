@@ -5,6 +5,8 @@ void main() {
 }
 
 class TelaInicio extends StatefulWidget {
+  const TelaInicio({super.key});
+
   @override
   State<TelaInicio> createState() => _TelaInicioState();
 }
@@ -34,6 +36,8 @@ class _TelaInicioState extends State<TelaInicio> {
 
 class SegundaTela extends StatefulWidget {
   final String nome = "Gabriel Ramos";
+
+  const SegundaTela({super.key});
 
   @override
   State<SegundaTela> createState() => _SegundaTelaState();

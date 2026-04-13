@@ -9,6 +9,8 @@ void main() {
 }
 
 class JogoApp extends StatefulWidget {
+  const JogoApp({super.key});
+
   @override
   _JogoAppState createState() => _JogoAppState();
 }

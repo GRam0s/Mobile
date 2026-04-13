@@ -13,6 +13,8 @@ void main() {
 }
 
 class ListaCompras extends StatefulWidget {
+  const ListaCompras({super.key});
+
   @override
   _ListaComprasState createState() => _ListaComprasState();
 }
