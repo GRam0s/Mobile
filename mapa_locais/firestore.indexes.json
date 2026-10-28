@@ -1,0 +1,30 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "locais",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "cidade", "order": "ASCENDING" },
+        { "fieldPath": "nome", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "locais",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "categoria", "order": "ASCENDING" },
+        { "fieldPath": "nome", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "locais",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "cidade", "order": "ASCENDING" },
+        { "fieldPath": "categoria", "order": "ASCENDING" },
+        { "fieldPath": "nome", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
